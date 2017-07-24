@@ -1,0 +1,147 @@
+html {
+  font-size: 18px;
+line-height: 1.4;
+}
+.header #logo {
+  background-color: cadetblue;
+  width: 100%;
+  display: inline-flex;
+  color: white;
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+}
+#logo nav#one a {
+  padding: 1rem 2rem;
+  display: inline-flex;
+}
+#logo nav {
+  text-align: right;
+  margin-left: auto;
+}
+#logo nav#two a {
+  display: none;
+}
+div#maintext h1 {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: helvetica;
+}
+div#maintext{
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  margin-top: 10rem;
+}
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  height: 31rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+div#logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+div#logo span {
+  font-size: 1rem;
+  font-family: helvetica;
+}
+#logos div{
+  display: inline-flex;
+  margin: 3rem 6rem;
+  height: 8rem;
+  flex-direction: column;
+  width: 5rem;
+  text-align: center;
+  align-items: center;
+}
+#logos {
+  justify-content: center;
+}
+#logos div img{
+  width: 5rem;
+}
+#logos div#exams img {
+  width: 3.5rem;
+}
+#logos div h4 {
+  font-size: 1rem;
+  font-family: helvetica;
+  font-weight: normal;
+}
+#info div {
+  width: 35%;
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+#info {
+  display: flex;
+  justify-content: center;
+}
+#info  h2 {
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  padding:0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+#info p {
+  font-family: helvetica;
+  font-weight: normal;
+}
+#info div#philosophy {
+  margin-right: 5%;
+}
+footer div#end {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  background-color: azure;
+  display: flex;
+  align-content: center;
+}
+div#end img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+div#end span {
+  font-family: helvetica;
+}
+@media only screen and (max-width:1024px) {
+.header #logo {
+  margin-top: 0rem;
+  width: 100%;
+}
+header {
+  height: 22rem;
+}
+div#maintext {
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+div#maintext h1 {
+  padding: 0.75rem 4rem;
+  font-size: 1.33rem;
+}
+#info {
+  display: flex;
+  justify-content: center;
+}
+}
+@media only screen and (max-width: 470px) {
+
+}
