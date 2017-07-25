@@ -143,5 +143,70 @@ div#maintext h1 {
 }
 }
 @media only screen and (max-width: 470px) {
-
+header {
+  background-position: 20%;
+  height: 17rem;
+}
+div#maintext {
+  margin-top: 9rem;
+  text-align: center;
+  width: 100%;
+  margin-right: 0rem;
+}
+div#maintext h1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+#logo nav#one a {
+  display: none;
+}
+#logo nav#two a {
+  display: block;
+}
+#logo span {
+  display: none;
+}
+div#logos {
+  margin: 3.77rem 0rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.77rem;
+  font-family: helvetica;
+}
+#logos div#exams img {
+  padding-bottom: 1.54rem;
+}
+#logos div#fittings img {
+  padding-bottom: 1.54rem;
+}
+#info div {
+  width: 100%;
+  padding-bottom: 4rem;
+  margin: 0rem;
+}
+#info {
+  display: flex;
+  flex-direction: column;
+}
+#info p{
+  font-size: 0.77rem;
+  font-family: helvetica;
+}
+#info h2{
+  width: 100%;
+  text-align: center;
+}
+div#end span {
+  display: none;
+}
+div#end {
+  display: flex;
+  justify-content: center;
+}
+#end img {
+  padding: none;
+  margin: none;
+}
 }
